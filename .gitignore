@@ -7,6 +7,7 @@
 /dist
 
 # 환경변수
+.env
 .env.local
 .env.development.local
 .env.test.local
@@ -18,7 +19,33 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# 테스트
+/coverage
+.nyc_output
+
 # 기타
 /.turbo
 /.vercel
+
+# 운영체제
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# IDE/에디터
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.fleet/
+
+# 에디터 임시 파일
+*.swp
+*.swo
+*~
+.vim/
 
